@@ -304,9 +304,3 @@ Install all with: `pip install -r requirements.txt`
 | **Architecture Inspiration** | [VGGNet](https://arxiv.org/abs/1409.1556) — Simonyan & Zisserman, 2014 |
 
 ---
-
-<div align="center">
-
-Made with ❤️ and PyTorch · Runs on Apple Silicon
-
-</div>
