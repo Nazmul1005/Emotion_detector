@@ -1,0 +1,27 @@
+# ============================================================
+# Real-Time Face Emotion Recognition - Requirements
+# Optimized for Apple Silicon (M-Series) with MPS backend
+# ============================================================
+
+# Core Deep Learning (PyTorch with MPS support for Apple Silicon)
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Computer Vision & Video Capture
+opencv-python>=4.9.0.80
+
+# Numerical Computing
+numpy>=1.26.0
+
+# Image Processing
+Pillow>=10.2.0
+
+# Progress Bar (for training/downloading)
+tqdm>=4.66.0
+
+# Haar Cascade face detection (bundled with opencv, listed for clarity)
+# opencv-python includes haarcascade_frontalface_default.xml
+
+# Optional: for downloading pretrained weights
+requests>=2.31.0

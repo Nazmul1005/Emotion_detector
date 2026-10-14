@@ -1,0 +1,37 @@
+# ── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environment ──────────────────────
+.venv/
+venv/
+env/
+
+# ── Dataset (too large for GitHub) ──────────
+data/
+
+# ── Model Checkpoints (too large ~145MB each) ─
+checkpoints/*.pth
+
+# Keep training history JSON
+!checkpoints/training_history.json
+
+# ── macOS system files ───────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── IDEs ─────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Jupyter ──────────────────────────────────
+.ipynb_checkpoints/
